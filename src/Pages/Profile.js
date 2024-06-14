@@ -37,7 +37,7 @@ function Profile() {
     if (username) {
       fetchUserProfile();
     }
-  }, [username]);
+  }, [username, options, reposEndpoint, userEndpoint]);
 
   return (
     <motion.section
